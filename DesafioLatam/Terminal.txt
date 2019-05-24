@@ -1,0 +1,11 @@
+Comandos
+
+Raiz = /
+ls = lista
+ls -a = lista los archivos incluidos los ocultos
+cd = cd nombre carpeta , cd/ 
+cd .. = atras
+cd cola de chancho,lleva al home de nuestro computador
+pwd = donde estoy parado
+
+

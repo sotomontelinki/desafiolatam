@@ -1,0 +1,74 @@
+style="color:red,yellow,blue,green"     color:#ff0000
+font-size:80px;
+text-align:center
+div = agrupa lo que quieras en un div, <div style:red> todo dentro del div es de color rojo
+style="background-color:green"
+padding:20px = separa el texto de los bordes
+margin:20px 0 40px 0; 
+arriba , derecha,abajo,izquierda 
+
+
+<img src="" style="height:200px">
+
+span = resalta palabras    <span style="color:red"></span>
+
+
+
+style, se coloca dentro del head para afectar todo el html con style:
+p{}
+h1{color:red;
+text-align; center;}
+
+#logo{height:100px;}
+.extragande{height:100px;}
+id = para identificar  id="foto"
+clase = para idenfiticar tambien clase="extragrande"
+
+Hay 3 formas de especificar un color de fondo, la primera es con el nombre del color
+EJ:
+ <div style="background-color:red">  <p> ¿Rojo? </p> </div> 
+ 
+Combinando estos valores puedes formar cualquier otro, cada color va de 0 a 255
+
+EJ:
+<div style="background-color:rgb(255,0,0)"> <p>  ¿Rojo?  </p> </div>
+
+La tercera forma que es muy similar a la segunda, pero es con códigos hexagesimales
+
+Ejemplo:
+ <div style="background-color:#ff0000">  <p>  ¿Rojo?  </p> </div> 
+ 
+ 
+ Opción 4: Con valores rgba (incluye transparencia parcial)
+<div style="background-color:rgba(255,0,0,0.5)"> <p> Parcialmente Rojo </p> </div>
+
+
+ul = lista = lista desordenada
+li = elementos de la lista
+
+
+
+
+
+<ul>
+<li>ELemento de Lista</li>
+<li>ELemento de Lista</li>
+</ul>
+
+https://www.toptal.com/designers/subtlepatterns/mosaic/
+---------------------------------------------------------------------------------------------
+box-sizing
+
+Cambia todos los elementos a box sizing
+
+html{
+box-sizing:border-box;
+}
+*, *:before, *:after {
+box-sizing:inherit;
+}
+---------------------------------------------------------------------------------------------
+
+z-index: 10;  le dice que elemento va sobre el otro, tomando el valor mayor sobre el menor
+
+

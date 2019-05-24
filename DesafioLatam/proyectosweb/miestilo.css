@@ -1,0 +1,26 @@
+body{
+margin:0px;
+font-weight:100;
+background-image: url("imagenes/imagen2.png")
+
+}
+
+p{
+color:#555555;
+}
+h1{
+font-family:'Oswald', sans-serif;
+font-weight:700
+}
+#logo{
+height:100px
+}
+
+ul.navbar{
+	background-color:white;
+	list-style-type: none;
+	height:200px;
+}
+ul.navbar li{
+	float:left; padding:50px;
+}

@@ -1,0 +1,23 @@
+Parrafo = <p> Texto aqui </p>
+Titulos = <h1>Titulo aca </h1> , subtitulos = h2, h3, h4, h5, h6
+Imagenes = <img src="direccion y nombre de la imagen"> , 
+Links = <a href="aqui va el link">Texto del link</a>   , atributo  para que siempre abra una pestaña nueva el link <a href target="_blank">
+Imagenes con link = <a href="aqui va la direccion a donde apuntar"><img src="direccion de la imagen"></a>
+
+Para los tildes y otros simbolos = <meta charset="utf-8">
+
+Para listados ordenados:
+ <ol>
+	<li> Lista 1</li>
+	<li> Lista 2 </li>
+</ol>
+-----------------------------------
+Para listados desordenados:
+<ul>
+	<li> Lista 1</li>
+	<li> Lista 2 </li>
+</ul>
+--------------------------------------
+
+
+target="_blank" = atributo para abrir la pagina en una nueva pestaña

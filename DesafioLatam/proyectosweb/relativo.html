@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			width: 50%;
+			background-color: blue;
+			float:left;
+			height: 250px;
+			border:solid 1px black;
+			box-sizing: border-box;
+
+		}
+		.static{
+			position: static;
+		}
+		.relative{
+			position: relative;
+			left: 200px;
+			z-index: -10;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+<div class="relative"></div>
+<div class="static"></div>
+</body>
+</html>
